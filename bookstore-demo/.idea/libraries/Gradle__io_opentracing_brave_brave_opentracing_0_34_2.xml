@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: io.opentracing.brave:brave-opentracing:0.34.2">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.opentracing.brave/brave-opentracing/0.34.2/66a3265d173d6db4f3363505c18f4edffa27f3cb/brave-opentracing-0.34.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.opentracing.brave/brave-opentracing/0.34.2/33fc21430df35cfae5a31fac930ab74cab2cee53/brave-opentracing-0.34.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

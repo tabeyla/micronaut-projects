@@ -1,0 +1,51 @@
+micronaut:
+  application:
+    name: bookstore-gateway
+  config-client:
+    enabled: true
+  server:
+    host: localhost
+    port: ${SERVICE_PORT:8084}
+  security:
+    enabled: true
+    oauth2:
+      enabled: true
+      clients:
+        google:
+          client-id: '125430829634-scgtafm4dfidecffke3rorgivdt55soq.apps.googleusercontent.com'
+          client-secret: '1pnAHnzqU1129lXWYdZiglWZ'
+          openid:
+            issuer: 'https://accounts.google.com'
+    token:
+      jwt:
+        enabled: true
+        cookie:
+          enabled: true
+        signatures:
+          secret:
+            generator:
+              secret: maryhadalittlelambherfleecewaswhiteassnow
+    endpoints:
+      logout:
+        enabled: true
+        get-allowed: true
+    writer:
+      header:
+        enabled: true
+    propagation:
+      enabled: true
+      service-id-regex: "bookstore"
+
+consul:
+  client:
+    registration:
+      enabled: true
+    defaultZone: "${CONSUL_HOST:localhost}:${CONSUL_PORT:8500}"
+
+tracing:
+  zipkin:
+    enabled: true
+    http:
+      url: "http://${ZIPKIN_HOST:localhost}:${ZIPKIN_PORT:9411}"
+      sampler:
+        probability: 1.0 # Configuration taking 100% of the request to be processed by Zipkin. In a real production system, that could be overwhelming.

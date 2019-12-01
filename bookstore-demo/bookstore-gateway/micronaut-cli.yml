@@ -1,0 +1,5 @@
+profile: service
+defaultPackage: com.mn.demo.bookstore.gateway
+---
+testFramework: junit
+sourceLanguage: java

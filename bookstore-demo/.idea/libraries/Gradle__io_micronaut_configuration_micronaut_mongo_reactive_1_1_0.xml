@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: io.micronaut.configuration:micronaut-mongo-reactive:1.1.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.micronaut.configuration/micronaut-mongo-reactive/1.1.0/ba8e269d9f39538a184224452811a7e57db9c665/micronaut-mongo-reactive-1.1.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.micronaut.configuration/micronaut-mongo-reactive/1.1.0/dfba1b27e16b62f418f483ca3e7fbe669045492f/micronaut-mongo-reactive-1.1.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

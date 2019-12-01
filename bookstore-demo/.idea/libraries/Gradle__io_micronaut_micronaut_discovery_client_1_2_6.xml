@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: io.micronaut:micronaut-discovery-client:1.2.6">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.micronaut/micronaut-discovery-client/1.2.6/61f10c2561115ff2c44ffc3bec87de8ec42e39c4/micronaut-discovery-client-1.2.6.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.micronaut/micronaut-discovery-client/1.2.6/4d3bdace4ad1c32f2631b96c924df6b0dd6a4678/micronaut-discovery-client-1.2.6-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

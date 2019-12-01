@@ -1,0 +1,5 @@
+profile: service
+defaultPackage: com.mn.demo.bookstore.api.v1
+---
+testFramework: junit
+sourceLanguage: java

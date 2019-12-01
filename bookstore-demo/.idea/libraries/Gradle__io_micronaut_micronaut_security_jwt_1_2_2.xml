@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: io.micronaut:micronaut-security-jwt:1.2.2">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.micronaut/micronaut-security-jwt/1.2.2/67ff8a50b9cdbfcdf5670f12326bc19c8685ee2b/micronaut-security-jwt-1.2.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.micronaut/micronaut-security-jwt/1.2.2/4467725ae3fd0a80f8810270ac0e58936ebb9e7c/micronaut-security-jwt-1.2.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

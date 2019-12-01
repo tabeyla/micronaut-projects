@@ -1,0 +1,40 @@
+micronaut:
+  application:
+    name: bookstore-gateway
+  server:
+    host: localhost
+    port: ${SERVICE_PORT:8084}
+  security:
+    enabled: true
+    endpoints:
+      login:
+        enabled: true
+      oauth:
+        enabled: true
+    token:
+      jwt:
+        enabled: true
+        signatures:
+          secret:
+            generator:
+              secret: maryhadalittlelambherfleecewaswhiteassnow
+      writer:
+        header:
+          enabled: true
+      propagation:
+        enabled: true
+        service-id-regex: "bookstore"
+
+consul:
+  client:
+    registration:
+      enabled: true
+    defaultZone: "${CONSUL_HOST:localhost}:${CONSUL_PORT:8500}"
+
+tracing:
+  zipkin:
+    enabled: true
+    http:
+      url: "http://${ZIPKIN_HOST:localhost}:${ZIPKIN_PORT:9411}"
+      sampler:
+        probability: 1.0 # Configuration taking 100% of the request to be processed by Zipkin. In a real production system, that could be overwhelming.
