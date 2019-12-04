@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: io.micronaut.configuration:micronaut-security-oauth2:1.2.2">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.micronaut.configuration/micronaut-security-oauth2/1.2.2/7af7b87ca2baee0000f34d48d15dbd63eeafe834/micronaut-security-oauth2-1.2.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.micronaut.configuration/micronaut-security-oauth2/1.2.2/93f81cd2a534624de529c0aa49ecaeecc3c0615/micronaut-security-oauth2-1.2.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

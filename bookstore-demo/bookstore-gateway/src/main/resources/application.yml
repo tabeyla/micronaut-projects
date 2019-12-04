@@ -1,29 +1,43 @@
 micronaut:
   application:
     name: bookstore-gateway
+  config-client:
+    enabled: true
   server:
-    host: localhost
-    port: ${SERVICE_PORT:8084}
+    host: ${MICRONAUT_SERVICE_HOST:localhost}
+    port: ${MICRONAUT_SERVICE_PORT:8084}
   security:
     enabled: true
-    endpoints:
-      login:
-        enabled: true
-      oauth:
-        enabled: true
+    oauth2:
+      enabled: true
+      clients:
+        google:
+          client-id: '125430829634-scgtafm4dfidecffke3rorgivdt55soq.apps.googleusercontent.com'
+          client-secret: '1pnAHnzqU1129lXWYdZiglWZ'
+          openid:
+            issuer: 'https://accounts.google.com'
     token:
       jwt:
         enabled: true
+        cookie:
+          enabled: true
         signatures:
           secret:
             generator:
               secret: maryhadalittlelambherfleecewaswhiteassnow
-      writer:
-        header:
-          enabled: true
-      propagation:
+              jws-algorithm: HS256
+    endpoints:
+      logout:
         enabled: true
-        service-id-regex: "bookstore"
+        get-allowed: true
+    writer:
+      header:
+        enabled: true
+        headerName: "Authorization"
+        prefix: "Bearer "
+    propagation:
+      enabled: true
+      service-id-regex: "bookstore"
 
 consul:
   client:

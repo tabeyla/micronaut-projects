@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: io.micronaut:micronaut-views-velocity:1.2.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.micronaut/micronaut-views-velocity/1.2.0/6c7c8814b14f633d175fbd55613a0c9541b38f19/micronaut-views-velocity-1.2.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.micronaut/micronaut-views-velocity/1.2.0/91a712697004f401c2aba9da8573c5af7073d77c/micronaut-views-velocity-1.2.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

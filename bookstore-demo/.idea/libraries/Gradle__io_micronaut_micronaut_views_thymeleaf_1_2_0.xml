@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: io.micronaut:micronaut-views-thymeleaf:1.2.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.micronaut/micronaut-views-thymeleaf/1.2.0/50d83fe1a650ec306386c7ff22b1904680bf66f4/micronaut-views-thymeleaf-1.2.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.micronaut/micronaut-views-thymeleaf/1.2.0/fb75cb6b484ccc076149f2708264c9cff653a15/micronaut-views-thymeleaf-1.2.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

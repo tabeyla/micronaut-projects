@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: io.micronaut:micronaut-views-freemarker:1.2.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.micronaut/micronaut-views-freemarker/1.2.0/f0b8bb8cb4ce38259fbe9ce001442dcd1d215d39/micronaut-views-freemarker-1.2.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.micronaut/micronaut-views-freemarker/1.2.0/ce4dbebe6b0ae52add3e577365c4e700d7c6a4eb/micronaut-views-freemarker-1.2.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

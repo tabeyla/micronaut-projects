@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: io.micronaut:micronaut-views:1.2.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.micronaut/micronaut-views/1.2.0/af0cba59c2bfae80ac62ce33264007ce071551ea/micronaut-views-1.2.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.micronaut/micronaut-views/1.2.0/befd3436c659fedac3696742732c326a021ef08d/micronaut-views-1.2.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
